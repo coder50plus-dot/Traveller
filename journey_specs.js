@@ -15,4 +15,8 @@ describe('journey', function(){
         const journey = new Journey('', 'Edinburgh');
         assert.strictEqual(journey.endLocation, 'Edinburgh');
     })
+    it('journey should have a mode of transport', function(){
+        const journey = new Journey('','','car');
+        assert.strictEqual(journey.modeOfTransport, 'car');
+    })
 })
