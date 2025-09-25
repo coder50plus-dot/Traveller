@@ -19,4 +19,8 @@ describe('journey', function(){
         const journey = new Journey('','','car');
         assert.strictEqual(journey.modeOfTransport, 'car');
     })
+    it('journey have a distance in miles', function(){
+        const journey = new Journey('','','',1);
+        assert.strictEqual(journey.distance, 1);
+    })
 })
