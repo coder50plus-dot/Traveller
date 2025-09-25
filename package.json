@@ -1,0 +1,23 @@
+{
+  "name": "traveller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "journey.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder50plus-dot/Traveller.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coder50plus-dot/Traveller/issues"
+  },
+  "homepage": "https://github.com/coder50plus-dot/Traveller#readme",
+  "devDependencies": {
+    "mocha": "^11.7.2"
+  }
+}
