@@ -5,3 +5,10 @@ const Traveller = require('./traveller.js')
 
     /* A Journey has:
 - a start location.*/
+
+describe('journey', function(){
+    it('journey should have a start location', function(){
+        const journey = new Journey('Haddington');
+        assert.strictEqual(journey.startLocation, 'Haddington');
+    })
+})
