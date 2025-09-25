@@ -11,4 +11,8 @@ describe('journey', function(){
         const journey = new Journey('Haddington');
         assert.strictEqual(journey.startLocation, 'Haddington');
     })
+    it('journey should have an end location', function(){
+        const journey = new Journey('', 'Edinburgh');
+        assert.strictEqual(journey.endLocation, 'Edinburgh');
+    })
 })
